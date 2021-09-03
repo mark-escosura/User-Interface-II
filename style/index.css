@@ -83,7 +83,7 @@ a{
     height: 7%;
 }
 section{
-    padding: 5% 0 0;
+    padding: 2% 0;
 }
 
 /* Header Section Styles */
@@ -115,7 +115,7 @@ header div .header-external-link:hover {
 #first-sect {
     display:flex;
     flex-direction: wrap;
-    padding-top: 0;
+    padding:0;
 }
 
 .right, .left {
@@ -146,6 +146,53 @@ button{
     flex-direction: row;
 }
 
-/* 8 image section styles */
+/* Second Section Styles */
 
+.fluffy-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.fluffy {
+    width: 23%;
+    height: 50vh;
+    margin:1%;
+    flex-wrap: wrap;
+    background-position: center;
+    background-size:cover;
+    align-content: flex-end;
+    justify-content: center;
+}
+.fluffy-images div .hidden {
+    display:none;
+}
+.fluffy-images div:hover .hidden{
 
+    display:block;
+}
+.fluffy-images
+.dog-1 {
+    background-image:url('https://images.unsplash.com/photo-1582490738676-9ea599096c68?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+}
+.dog-2 {
+    background-image:url('https://images.unsplash.com/photo-1596797882870-8c33deeac224?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZG9nc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+}
+.dog-3 {
+    background-image:url('https://images.unsplash.com/photo-1529954382468-c3b5e8371e10?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zmx1ZmZ5JTIwZG9nc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+}
+.dog-4 {
+    background-image:url('https://images.unsplash.com/photo-1611003229186-80e40cd54966?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zmx1ZmZ5JTIwZG9nc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+}
+.dog-5 {
+    background-image:url('https://images.unsplash.com/photo-1608754786631-b8c2a9b4ecaa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGZsdWZmeSUyMGRvZ3N8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+}
+.dog-6 {
+    background-image:url('https://images.unsplash.com/photo-1549145507-f58b3ad6adad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fGZsdWZmeSUyMGRvZ3N8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+}
+.dog-7 {
+    background-image:url('https://images.unsplash.com/photo-1525512953-2530e89e5843?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fGZsdWZmeSUyMGRvZ3N8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60')
+}
+.dog-8 {
+    background-image:url('https://images.unsplash.com/photo-1615858934582-8617f008d5b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA2fHxmbHVmZnklMjBkb2dzfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+}
