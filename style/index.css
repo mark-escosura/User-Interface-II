@@ -242,5 +242,28 @@ footer nav button:hover a{
         background: #FAEBD7;
         border-radius: 10px;
         background: linear-gradient(to right, #FAEBD7, #cb7d18);
+        width: 20%;
+    }
+    #first-sect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left {
+        width: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    #first-sect img {
+        display:none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #first-sect .right .about-my-website {
+        width: 100%;
     }
 }
