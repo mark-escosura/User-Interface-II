@@ -71,3 +71,26 @@ Follow these steps for completing your project.
 
 - [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
+## Objectives Question from Responsive Design Module
+1. describe the differences in fixed, fluid, adaptive, and responsive layout.
+
+The difference between fixed, fluid, adaptive, and responsive layout is that, 
+
+- fixed: a specific size but does not change hence the word "fixed".
+
+- fluid: makes the element more flexible depending on it's user's browser.
+
+- adaptive: where websites only concerned about the browser being a specific width, at which point it adapts the layout.
+
+- responsive: responds to the size of the browser at ANY given point.
+
+
+2. describe how using scalable units for font sizes impacts accessibility and why designing accessible web pages is important
+
+a.) Scalable units for font sizes impacts accessibility is important 
+
+- this is important because we want the user to have a good user experience. By using scalable units, the text will adapt to the resolution of the device for better usability of the site for all users.
+
+b.) designing accessible web pages is important
+
+- By making your website accessible, you are ensuring that all of your potential users, including people with disabilities, have a good user experience and are able to easily access your information. By implementing accessibility best practices, you are also improving the usability of the site for all users.
