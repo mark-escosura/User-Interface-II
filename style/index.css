@@ -19,7 +19,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 ol, ul {
 	list-style: none;
 	}
-/* tables still need cellspacing="0" in the markup */
+/* tables still need cellsspacing="0" in the markup */
 table {
 	border-collapse: separate;
 	border-spacing: 0;
